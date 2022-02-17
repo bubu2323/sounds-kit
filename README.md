@@ -26,7 +26,7 @@ Create a soundbox that plays a diferent audio file when a button is clicked.
 
 ### Links
 
-- Live Site URL: [https://bubu2323.github.io/sounds-kit.git/]
+- Live Site URL: [https://bubu2323.github.io/sounds-kit/]
 
 ## My process
 
@@ -35,14 +35,14 @@ Create a soundbox that plays a diferent audio file when a button is clicked.
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-  -Vanilla Javascript
+ -Vanilla Javascript
 
 ### What I learned
+- event object in Javascript
+- add an audio file in Javascript
+- be more familiar with functions in Javascript
+-c ode refactoring
 
--event object in Javascript
--add an audio in Javascript
--be more familiar with functions in Javascript
--code refactoring
 
 ### Useful resources
 
