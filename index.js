@@ -27,7 +27,11 @@ document.addEventListener("keydown", function (e) {
     let audio = new Audio("sounds/pg " + keyPressed + ".mp3");
     audio.play();
   } else {
-    alert("try to press another key");
+    alert(`You can only press one of this keys:
+    -A    -G
+    -S    -H
+    -D    -J
+    -F    -L`);
   }
 });
 
