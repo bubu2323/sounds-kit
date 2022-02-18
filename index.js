@@ -13,8 +13,21 @@ for (let i = 0; i < numberButtons; i++) {
 
 document.addEventListener("keydown", function (e) {
   let keyPressed = e.key;
-
-      let audio = new Audio("sounds/pg " + keyPressed + ".mp3");
-      audio.play();
-
+  if (
+    keyPressed == "a" ||
+    keyPressed == "s" ||
+    keyPressed == "d" ||
+    keyPressed == "f" ||
+    keyPressed == "g" ||
+    keyPressed == "h" ||
+    keyPressed == "j" ||
+    keyPressed == "k" ||
+    keyPressed == "l"
+  ) {
+    let audio = new Audio("sounds/pg " + keyPressed + ".mp3");
+    audio.play();
+  } else {
+    alert("try to press another key");
+  }
 });
+
